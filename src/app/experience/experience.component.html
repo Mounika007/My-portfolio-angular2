@@ -1,0 +1,54 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{pageTitle}}
+    </div>
+<div class='panel-body'>
+<div class='row'>
+    
+</div>
+<div class='row'>
+    <div class='col-md-6'>
+       
+    </div>
+</div>
+<div class='table-responsive'>
+    <table class='table' *ngIf='experiences && experiences.length' >
+        <thead>
+            <tr>
+                <th>
+                    <button class='btn btn-primary'(click)='toggleImage()'>
+                        {{showImage ? 'Hide':'Show'}} Image 
+                    </button>
+                </th>
+                <th >Company Name</th>
+                <th >Location</th>
+                <th>Position</th>
+                <th> Start date</th>
+                <th>End date</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+             <tr *ngFor='let experience of experiences'>
+              <td>
+                   <img *ngIf='showImage'
+                         [src]='experience.imageUrl'
+                         [title]='experience.University'
+                         [style.width.px]='imageWidth'
+                         [style.margin.px]='imageMargin'>
+                    
+              </td>
+              <td><a [routerLink]="['/experience',experience.experienceId]">{{experience. Company}}</a></td>
+              <td>{{experience.Location}}</td>
+              <td>{{experience.Role}}</td>
+              <td>{{experience.Start}}</td>
+              <td>{{experience.End}}</td> 
+             </tr>
+        
+               
+       </tbody>
+    </table>
+</div>
+</div>
+</div>
+

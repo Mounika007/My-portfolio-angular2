@@ -1,0 +1,40 @@
+
+
+[
+    {
+        "detailId": 1,
+        "University": "Bhashyam",
+        "Degree": "SSC",
+        "Course": "SSC",
+        "Year": "2007",
+        "GPA": "3.50",
+        "imageUrl": "http://cdn.htcampus.com/cmsmedia/htcuploads/images/institute/bhashyam-college-education-bed-college/logo.jpg"
+    },
+	  {  
+       "detailId":2,
+        "University": "Sri Chaitanya",
+        "Degree": "Inter",
+        "Course": "MPC",
+        "Year": "2009",
+        "GPA": "3.00",
+        "imageUrl": "http://infoserwiz.com/wp-content/uploads/2016/01/276126.png"
+    },
+	{
+        "detailId":3,
+        "University": "R.V.R & j.C college of engineering",
+        "Degree": "B.tech",
+        "Course": "Information Technology",
+        "Year": "2013",
+        "GPA": "3.00",
+        "imageUrl": "http://i60.tinypic.com/2ed5vuf.jpg"
+    },
+	{
+        "detailId":4,
+        "University":"Northwestern Polytechnic University",
+        "Degree": "Masters",
+        "Course": "Computer Science",
+        "Year": "2015",
+        "GPA": "3.05",
+        "imageUrl": "https://pbs.twimg.com/profile_images/234905619/logo.gif"
+    }
+]

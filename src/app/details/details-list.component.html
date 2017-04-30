@@ -1,0 +1,51 @@
+<div class='panel panel-primary' *ngIf='details'>
+    <div class='panel-heading' style='font-size:large'>
+        {{pageTitle + ':' + details.University}}
+    </div>
+    <div class='panel-body'>
+        <div class='container'>
+            
+        <div class='row'>
+            <div class='col-md-6'>
+                <div class='row'>
+                    <div class='col-md-3'>Name:</div>
+                    <div class='col-md-6'>{{details.University}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Degree:</div>
+                    <div class='col-md-6'>{{details.Degree}}</div>
+                </div>
+                
+                 <div class='row'>
+                    <div class='col-md-3'>Course:</div>
+                    <div class='col-md-6'>{{details.Course}}</div>
+                </div>
+                 <div class='row'>
+                    <div class='col-md-3'>Year:</div>
+                    <div class='col-md-6'>{{details.Year}}</div>
+                </div>
+                 <div class='row'>
+                    <div class='col-md-3'>GPA:</div>
+                    <div class='col-md-6'>{{details.GPA}}</div>
+                </div>
+                
+                   <div class='col-md-3'>
+                <img class='center-block img-responsive' 
+                     [style.width.px]='200' 
+                     [style.margin.px]='2' 
+                     [src]='details.imageUrl'
+                     [title]='details.University'>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class='panel-footer'>
+    <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+<i class='glyphicon glyphicon-chevron-left'></i> Back
+</a>
+</div>
+</div>
+
+

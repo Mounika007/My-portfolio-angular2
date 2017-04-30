@@ -1,0 +1,39 @@
+
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{pageTitle}}
+    </div>
+<div class='panel-body'>
+  <div class='row'>
+    
+</div>
+<div class='row'>
+    <div class='col-md-6'>
+       
+    </div>
+</div>
+<div class='table-responsive'>
+   <table class='table' *ngIf='references && references.length' >
+        <thead>
+            <tr>
+                <th> Company</th>
+                <th >Person Name</th>
+                <th>E-mail </th>
+                <th>Job title</th>
+  
+            </tr>
+        </thead>
+        <tbody>
+           <tr *ngFor='let reference of references'>
+              
+              <td>{{reference.Company}}</td>
+              <td>{{reference.Person}}</td>
+              <td>{{reference.Mail}}</td>
+              <td>{{reference.Position}}</td> 
+          </tr>
+               
+       </tbody>
+       </table>
+</div>
+</div>
+</div>

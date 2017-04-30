@@ -1,0 +1,32 @@
+[
+    {
+        "experienceId": 1,
+        "Company": "Progressive Insurance",
+        "Location": "Mayfield heights,ohio",
+        "Role": "UI Developer",
+        "Start": "Nov /15 ",
+        "End":"Dec /16",
+        "Technologies": "string",
+        "imageUrl": "string",
+         "Position":"UI Developer",
+        "Responsibilities":"Core technology stack used in day to day project are HTML5, CSS/CSS3, Less, JSON, AJAX, JavaScript, Bootstrap, Angularjs,  JQuery, MVC, SQL, GIT repository.Used Grunt as the automated task runner for a better development/build/production workflow.Involved in writing application level code to interact with APIs, Web Services using AJAX, JSON and XML.Used SVN as source repository and controlling versions of the code.Performing unit-testing using Jasmine, Karma and end-to-end testing using Protractor.Used tools such as firebug, web developer tools for debugging and correcting errors.Used the source tree deployed code in server.",
+        "Environment":"HTML5, CSS3, JavaScript, jQuery, Bootstrap, Angular JS, Node JS , JSON, MVC, AJAX, Grunt, SVN, Restful, Apache Tomcat Server, Agile/Scrum, Firebug, GIT, Source tree."
+    },
+    
+
+{
+        "experienceId": 2,
+        "Company": "Wells Fargo",
+        "Location": "Richmond,VA",
+        "Role": "Web Developer",
+        "Start": "Jun /15  ",
+        "End":"Nov /15 ",
+        "Technologies": "string",
+        "imageUrl": "string",
+         "Position":"UI Developer",
+        "Responsibilities":"Core technology stack used in day to day project are HTML5, CSS/CSS3, Less, JSON, AJAX, JavaScript, Bootstrap, Angularjs,  JQuery, MVC, SQL, GIT repository.Creating custom, general use modules and components which extend the elements and modules of core AngularJS.Expertise in DOM manipulation using JavaScript, jQuery and AngularJS. Implemented AngularJS Controllers to maintain each view data. Implemented  Angular Service calls using Angular Factory. ",
+        "Environment":"HTML5, CSS/CSS3, JSON, JavaScript, Bootstrap, Angularjs, JQuery, MVC, Oracle SQL , GIT repository. "
+    }
+    
+
+]

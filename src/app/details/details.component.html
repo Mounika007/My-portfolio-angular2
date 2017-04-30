@@ -1,0 +1,51 @@
+<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        {{pageTitle}}
+    </div>
+<div class='panel-body'>
+<div class='row'>
+    
+</div>
+<div class='row'>
+    <div class='col-md-6'>
+       
+    </div>
+</div>
+<div class='table-responsive'>
+    <table class='table' *ngIf='details && details.length' >
+        <thead>
+            <tr>
+                <th>
+                    <button class='btn btn-primary'(click)='toggleImage()'>
+                        {{showImage ? 'Hide':'Show'}} Image 
+                    </button>
+                </th>
+                <th >University</th>
+                <th >Degree</th>
+                <th>Course</th>
+                <th>GrduationYear</th>
+                <th>GPA</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor='let detail of details'>
+              <td>
+                   <img *ngIf='showImage'
+                         [src]='detail.imageUrl'
+                         [title]='detail.University'
+                         [style.width.px]='imageWidth'
+                         [style.margin.px]='imageMargin'>
+                    
+              </td>
+              <td><a [routerLink]="['/detail',detail.detailId]">{{detail.University}}</a></td>
+              <td>{{detail.Degree}}</td>
+              <td>{{detail.Course}}</td>
+              <td>{{detail.Year}}</td>
+              <td>{{detail.GPA}}</td> 
+          </tr>
+               
+       </tbody>
+    </table>
+</div>
+</div>
+</div>
